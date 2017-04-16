@@ -1,7 +1,5 @@
 
-html, body {
-    position: relative;
-    height: 100%;
+html, body {position: relative;height: 100%;
     background: #3491C7;
 }
 body {
@@ -131,7 +129,10 @@ div.ani{
         transform:rotate(360deg);
     }
 }
-
+.page h1{
+    font-size: 20px;
+    margin-top: 5%;
+}
 .page1 .photo{
     width:80px;
     height: 80px;
@@ -159,6 +160,10 @@ div.ani{
     border:1px solid #fff;
     border-radius: 3px;
     box-shadow: 0 0 0 1px #999;
+}
+.page1 .xxjs p{
+    text-align: left;
+    text-indent: 15px;
 }
 .page2 .skill{
     margin-top: 20px;
@@ -189,7 +194,7 @@ div.ani{
     height: 10px;
     width:50%;
     border-radius: 5px;
-    background: red;
+    background: #3491C7;
     margin-left: 10px;
 }
 .page4 a{
@@ -203,6 +208,13 @@ div.ani{
 
 }
 .page4 div p{
-    text-indent: 20px;
+    text-align: left;
+    text-indent: 15px;
     clear: both;
+}
+.page5 p,.page3>div p:nth-child(2){
+    width: 90%;
+    text-align: left;
+    text-indent: 15px;
+    margin: 0 auto;
 }
